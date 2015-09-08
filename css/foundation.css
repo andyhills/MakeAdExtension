@@ -4125,7 +4125,7 @@ a.th {
   /*border-bottom: dotted 1px #cccccc;*/
   cursor: help;
   font-weight: bold;
-  /*color: #333333;*/ 
+  /*color: #333333;*/
   }
   .has-tip:hover, .has-tip:focus {
     /*border-bottom: dotted 1px #196177;*/
@@ -4279,5 +4279,3 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
-
-

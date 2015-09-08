@@ -1082,3 +1082,7 @@ form {
   display: inline-block;
   text-decoration: inherit;
 }
+
+.size {
+  color: red;
+}

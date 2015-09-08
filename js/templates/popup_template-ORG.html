@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="large-12 columns">
+      <img src="/img/logo-225.png" alt="">
+      <textarea id="adTag" placeholder="Tags">{{adTag}}</textarea>
+    </div>
+    <div class="small-6 columns" id="views">
+      <!-- <label>&nbsp;</label> -->
+      <form class="custom">
+        <select id="view-options">
+            <option value="default">Default</option>
+            <!-- <option value="iframe">iframe</option> -->
+            <option value="empty">empty</option>
+            <option DISABLED><hr></option>
+            <!-- <option value="about-blank">about-blank</option> -->
+            <option value="below-the-fold">below-the-fold</option>
+            <option value="google_frame">google_frame</option>
+            <option value="inside-head">inside-head</option>
+            <option value="inside-head-with-body">inside-head-with-body</option>
+            <!-- <option value="mobile">mobile</option> -->
+            <!-- <option value="unfriendly-iframe">unfriendly-iframe</option> -->
+        </select>
+      </form>
+    </div>
+    <div class="small-6 columns" id="alignment">
+      <!-- <label>Anchor</label> -->
+      <form class="custom">
+        <select id="view-options">
+          <option>Anchor</option>
+          <option value="left">Left</option>
+          <option value="center">Center</option>
+          <option value="right">Right</option>
+        </select>
+      </form>
+    </div>
+    <div class="small-6 columns">
+      <a href="" target="_blank" id="render-tag" class="button success tiny"><i class="fi-widget"></i> Render</a>
+    </div>
+    <div class="small-6 columns" id="save-tag">
+      <a href="" id="save-tag" target="_blank" class="button success tiny"><i class="fi-upload"></i> Save</a>
+    </div>
+    <div class="small-12 columns" style="padding-top:15px" >
+        <input type="text" id="ad-name" style="display:none" placeholder="Ad Name">
+    </div>
+  </div>

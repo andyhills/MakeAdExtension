@@ -1,0 +1,9 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+#main-container {
+  width: 200px;
+  height: 75px;
+}

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Voltron Light • Powered by JetFuel • Flite, Inc.",
+  "description": "Quickly renders tags using the powers of Voltron.",
+  "version": "1.0",
+
+    "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "voltron-square.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://10.1.1.220:3300/lite"],
+      "js": ["js/content_script.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "storage","proxy", "cookies", "http://10.1.1.220/","tabs","http://127.0.0.1:3300/", "http://www.flite.com/", "http://10.1.1.220:3301/", "https://wwww.google.com/", "http://voltron-qa.postapp.com/", "http://*/*", "https://*/*"
+  ]
+}

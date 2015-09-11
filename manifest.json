@@ -13,6 +13,10 @@
     "default_popup": "popup.html"
   },
 
+  "icons": {
+    "96": "icon.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["http://10.1.1.220:3300/lite"],

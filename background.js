@@ -9,7 +9,7 @@ chrome.tabs.onReplaced.addListener(function (id){
   if (id == tab_id) {
     tab_id = undefined;
   }
-})
+});
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     console.log(sender.tab ?

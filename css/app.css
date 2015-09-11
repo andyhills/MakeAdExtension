@@ -1,5 +1,6 @@
 body {
   background: url(../img/bg-3.png) fixed;
+  font-family: 'Dosis', sans-serif;
 }
 
 h6,h5 {
@@ -479,8 +480,25 @@ button, .button {
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
+  /*text-align: left;*/
+  padding-left: 10px !important;
+  padding-left: 19px !important;
+  /*font-size: 0.7em !important;*/
+  margin-bottom: 0;
 }
+
+/*.button.formats {background-color: rgba(34, 132, 161, 0.95);}
+.button.starter-ads {background-color: rgba(34, 132, 161, 0.85);}
+.button.social {background-color: rgba(34, 132, 161, 0.75);}
+.button.responsive {background-color: rgba(34, 132, 161, 0.65);}
+.button.rising-stars {background-color: rgba(34, 132, 161, 0.55);}
+.button:hover {background-color: rgba(34, 132, 161, 1);}*/
+
+.button.small {
+    padding-top: 0.925em;
+    padding-bottom: 0.9625em;
+  }
 
 .button.success {
   background-color: #457A1A;
@@ -1087,7 +1105,7 @@ form {
   color: #9C9B9B;
       display: block;
       font-size: 0.7em;
-      padding-left: 34px;
+      padding-left: 30px;
       line-height: 0.5;
 }
 .template_icon {
@@ -1098,4 +1116,12 @@ form {
 
 .f-dropdown.content {
     padding: .25em;
+}
+
+.f-dropdown:before {
+    left: 95px;
+}
+
+.f-dropdown:after {
+    left: 95px;
 }

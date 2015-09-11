@@ -1084,5 +1084,18 @@ form {
 }
 
 .size {
-  color: red;
+  color: #9C9B9B;
+      display: block;
+      font-size: 0.7em;
+      padding-left: 34px;
+      line-height: 0.5;
+}
+.template_icon {
+  width: 24px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.f-dropdown.content {
+    padding: .25em;
 }

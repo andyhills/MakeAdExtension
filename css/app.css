@@ -1127,6 +1127,14 @@ form {
 .f-dropdown:after {
     left: 95px;
 }
+.button:active {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.85) inset;
+}
+.button:hover {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.85) inset;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.85) inset;
+}
 
 .switch-on {
   position: absolute;

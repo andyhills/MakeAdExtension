@@ -1103,15 +1103,17 @@ form {
 
 .size {
   color: #9C9B9B;
-      display: block;
-      font-size: 0.7em;
-      padding-left: 30px;
-      line-height: 0.5;
+  display: block;
+  font-size: 0.7em;
+  padding-left: 30px;
+  line-height: 0.5;
+  font-family: 'Open Sans', sans-serif;
 }
 .template_icon {
   width: 24px;
   border-radius: 3px;
   margin-right: 5px;
+  margin-bottom: -7px
 }
 
 .f-dropdown.content {

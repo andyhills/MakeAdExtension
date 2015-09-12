@@ -18,13 +18,7 @@
     "96": "icon.png"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["http://10.1.1.220:3300/lite"],
-      "js": ["js/content_script.js"],
-      "run_at": "document_end"
-    }
-  ],
+
 
   "permissions": [
     "storage","proxy", "cookies", "http://10.1.1.220/","tabs","http://127.0.0.1:3300/", "http://www.flite.com/", "http://10.1.1.220:3301/", "https://wwww.google.com/", "http://voltron-qa.postapp.com/", "http://*/*", "https://*/*"
